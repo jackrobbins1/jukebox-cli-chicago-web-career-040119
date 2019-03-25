@@ -70,6 +70,7 @@ end
 
 def run
   help
+  usrCmd = ""
   while usrCmd != "exit"
   puts "Please enter a command:"
   usrCmd = gets.chomp
