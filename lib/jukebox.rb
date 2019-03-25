@@ -43,21 +43,21 @@ def play(arr)
   case usrSong
   when "1" || "#{arr[0]}"
     puts "Playing #{arr[0]}"
-  when "2" || arr[1]
+  when "2" || "#{arr[1]}"
     puts "Playing #{arr[1]}"
-  when "3" || arr[2]
+  when "3" || "#{arr[2]}"
     puts "Playing #{arr[2]}"
-  when "4" || arr[3]
+  when "4" || "#{arr[3]}"
     puts "Playing #{arr[3]}"
-  when "5" || arr[4]
+  when "5" || "#{arr[4]}"
     puts "Playing #{arr[4]}"
-  when "6" || arr[5]
+  when "6" || "#{arr[5]}"
     puts "Playing #{arr[5]}"
-  when "7" || arr[6]
+  when "7" || "#{arr[6]}"
     puts "Playing #{arr[6]}"
-  when "8" || arr[7]
+  when "8" || "#{arr[7]}"
     puts "Playing #{arr[7]}"
-  when "9" || arr[8]
+  when "9" || "#{arr[8]}"
     puts "Playing #{arr[8]}"
   else
     puts "Invalid input, please try again"
