@@ -68,7 +68,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(arr)
   help
   usrCmd = ""
   while usrCmd != "exit"
@@ -78,12 +78,12 @@ def run
     when "help"
       help
     when "list"
-      list(songs)
+      list(arr)
     when "play"
-      play(songs)
+      play(arr)
     end
   end
   exit_jukebox
 end
 
-run
+run(songs)
